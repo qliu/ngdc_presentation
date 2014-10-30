@@ -64,6 +64,9 @@
                         <a class="page-scroll" href="#modules">Modules</a>
                     </li>
                     <li>
+                        <a class="page-scroll" href="#values">Values</a>
+                    </li>
+                    <li>
                         <a class="page-scroll" href="#workflow">Workflow</a>
                     </li>
                     <li>
@@ -119,7 +122,7 @@
         </div>
     </section>
     
-    <!-- Services Section -->
+    <!-- Modules Section -->
     <section id="modules">
         <div class="container">
             <div class="row">
@@ -136,7 +139,8 @@
                     </span>
                     <h2 class="service-heading">Store & Manage</h2>
                     <p class="text-muted large">
-                      Night-time satellite imagery will be stored and managed in an object-relational spatial database management system .<br/>
+                      Night-time satellite imagery will be stored and managed in an object-relational spatial database management system,<br/>
+                      with the capabilities to conduct spatial query, spatial analysis, and statistical analysis.
                       <br/>
                     </p>
                 </div>
@@ -148,7 +152,7 @@
                     <h2 class="service-heading">Visualize</h2>
                     <p class="text-muted large">
                       Map Visualization shows views of earth at night with interactive operations.<br/>
-                      Chart Visualization creates meaningful information out of night-time lights data derived metrics.<br/>
+                      Chart and Table Visualization create meaningful information out of night-time lights data derived metrics.<br/>
                      </p>
                 </div>
                 <div class="col-md-4">
@@ -158,8 +162,69 @@
                     </span>
                     <h2 class="service-heading">Download & Data API</h2>
                     <p class="text-muted large">
-                      Data Download provides you night-time lights data and key metrics in a standardized format.<br/>
+                      Data Download provides you night-time lights data and key metrics in a standardized and ready-to-use format.<br/>
                       Developer API helps create your own tools and applications with night-time lights data.
+                    </p>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-lg-12">
+                    <a href="#workflow" class="btn btn-circle page-scroll btn-next"><i class="fa fa-angle-double-down animated"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Values Section -->
+    <section id="values">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Why this is a good idea?</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-database fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h2 class="service-heading">Spatial ORDBMS</h2>
+                    <p class="text-muted large">
+                      &#8226; Efficient storage as raster.<br/>
+                      &#8226; Easy to manage.<br/>
+                      &#8226; Easy to update.<br/>
+                      &#8226; Automate imagery processing<br/>
+                      and metrics generation procedures.<br/>
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-bar-chart fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h2 class="service-heading">Visualizations</h2>
+                    <p class="text-muted large">
+                      &#8226; Interactive map with query<br/>
+                      and filtering capabilities.<br/>
+                      &#8226; Compare night-time lights derived metrics<br/>
+                      with other socio-economic indicators.<br/>
+                      &#8226; Horizontal analysis <br/>
+                      over a series of time periods.<br/>
+                     </p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-cloud-download fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h2 class="service-heading">Data Access</h2>
+                    <p class="text-muted large">
+                      &#8226; Improve access to night-time lights data.<br/>
+                      &#8226; Enable more applications<br/>
+                      by providing access to night-time lights data<br/>
+                      through developer's API.<br/>
                     </p>
                 </div>
             </div>
@@ -245,7 +310,7 @@
                         <img src="img/mockup05.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Report</h4>
+                        <h4>Abnormality Report</h4>
                         <br/>
                     </div>
                 </div>
@@ -295,17 +360,22 @@
                   <li>Spatial data type: geometry + raster</li>
                   <li>Seamless vector/raster interaction</li>
                   <li>Spatial query/functions</li>
+                  <li>Programming custom functions with PL/pgSQL</li>
                   <li>Spatial indexing</li>
+                  <li>Mature product, active development and releasing</li>
                 </ul>
             </div>
             <div class="row">
                 <h2 class="service-heading">Leaflet</h2>
                 <p class="text-muted">An open-source JavaScript library for mobile-friendly interactive maps</p>
                 <ul>
-                  <li>Small size library</li>
+                  <li>Lightweight library</li>
                   <li>User-friendly and mobile-friendly interface</li>
-                  <li>Neat coding style: short namespaces, chaining functions</li>
+                  <li>Fast rendering</li>
                   <li>Extendible with plugins</li>
+                  <li>Easy to learn: full documentation</li>
+                  <li>Neat coding style: short namespaces, chaining functions</li>
+                  <li>Active development, growing number of plugins</li>
                 </ul>
             </div>
         </div>
@@ -471,7 +541,7 @@
                     <div class="col-lg-12">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Report</h2>
+                            <h2>Report unusual observations in the imagery</h2>
                             <p class="item-intro text-muted"></p>
                             <img class="img-responsive img-centered" src="img/mockup05.png" alt="">
                             <p></p>
